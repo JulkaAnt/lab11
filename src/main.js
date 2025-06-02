@@ -61,7 +61,7 @@ function displayArticles(articles) {
     div.innerHTML = `
       <h2>${article.title}</h2>
       <h3>${article.subtitle}</h3>
-      <p><strong>Autor:</strong> ${article.author}</p>
+      // <p><strong>Autor:</strong> ${article.author}</p>
       <p><strong>Data:</strong> ${format(new Date(article.created_at), 'dd-MM-yyyy')}</p>
       <p>${article.content}</p>
     `;
