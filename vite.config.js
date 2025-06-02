@@ -1,11 +1,8 @@
 import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig(
     { 
-        plugins: [
-            tailwindcss(),
-        ],
+        plugins: [],
         base: 'https://julkaant.github.io/lab11/'
     }
 );
